@@ -99,7 +99,7 @@ def hessian(point, nusd):
 # <codecell>
 
 with model:
-    start = find_MAP(vars=[s], fmin=optimize.fmin_l_bfgs_b)
+    start = find_MAP(vars=[s], fmin=optimize.fmin_l_bfgs_b, disp=True)
 
 # <markdowncell>
 
